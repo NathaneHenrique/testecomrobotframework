@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190326 11:11:38.567" generator="Robot 3.1.1 (Python 2.7.15 on win32)">
+<suite source="C:\Projetos\SuiteSIteTestPractice\tests\SitePracticeBDD.robot" id="s1" name="SitePracticeBDD">
+<kw type="setup" name="Abrir navegador" library="ResourceBDD">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20190326 11:11:38.683" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" endtime="20190326 11:11:40.825" starttime="20190326 11:11:38.683"></status>
+</kw>
+<status status="PASS" endtime="20190326 11:11:40.826" starttime="20190326 11:11:38.682"></status>
+</kw>
+<test id="s1-t1" name="Cenário 5: Adicionar cliente">
+<kw name="Dado que estou na página home do site" library="ResourceBDD">
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the active browser instance to the provided ``url``.</doc>
+<arguments>
+<arg>http://automationpractice.com</arg>
+</arguments>
+<msg timestamp="20190326 11:11:40.827" level="INFO">Opening url 'http://automationpractice.com'</msg>
+<status status="PASS" endtime="20190326 11:11:45.298" starttime="20190326 11:11:40.827"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that current page title equals ``title``.</doc>
+<arguments>
+<arg>My Store</arg>
+</arguments>
+<msg timestamp="20190326 11:11:45.303" level="INFO">Page title is 'My Store'.</msg>
+<status status="PASS" endtime="20190326 11:11:45.303" starttime="20190326 11:11:45.298"></status>
+</kw>
+<status status="PASS" endtime="20190326 11:11:45.303" starttime="20190326 11:11:40.826"></status>
+</kw>
+<kw name="E clicar no botão de login" library="ResourceBDD">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="header"]/div[2]/div/div/nav/div[1]/a</arg>
+</arguments>
+<msg timestamp="20190326 11:11:45.304" level="INFO">Clicking element 'xpath=//*[@id="header"]/div[2]/div/div/nav/div[1]/a'.</msg>
+<status status="PASS" endtime="20190326 11:11:47.077" starttime="20190326 11:11:45.304"></status>
+</kw>
+<status status="PASS" endtime="20190326 11:11:47.077" starttime="20190326 11:11:45.304"></status>
+</kw>
+<kw name="Quando eu registrar uma nova conta" library="ResourceBDD">
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=email_create</arg>
+<arg>yizecano@network-source.com</arg>
+</arguments>
+<msg timestamp="20190326 11:11:47.078" level="INFO">Typing text 'yizecano@network-source.com' into text field 'id=email_create'.</msg>
+<status status="PASS" endtime="20190326 11:11:47.159" starttime="20190326 11:11:47.078"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="SubmitCreate"]/span</arg>
+</arguments>
+<msg timestamp="20190326 11:11:47.159" level="INFO">Clicking element 'xpath=//*[@id="SubmitCreate"]/span'.</msg>
+<status status="PASS" endtime="20190326 11:11:47.206" starttime="20190326 11:11:47.159"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="noSlide"]/h1</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20190326 11:11:52.735" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-42.png"&gt;&lt;img src="selenium-screenshot-42.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20190326 11:11:52.735" starttime="20190326 11:11:52.321"></status>
+</kw>
+<msg timestamp="20190326 11:11:52.736" level="FAIL">Element 'xpath=//*[@id="noSlide"]/h1' not visible after 5 seconds.</msg>
+<status status="FAIL" endtime="20190326 11:11:52.736" starttime="20190326 11:11:47.206"></status>
+</kw>
+<status status="FAIL" endtime="20190326 11:11:52.736" starttime="20190326 11:11:47.078"></status>
+</kw>
+<status status="FAIL" endtime="20190326 11:11:52.737" critical="yes" starttime="20190326 11:11:40.826">Element 'xpath=//*[@id="noSlide"]/h1' not visible after 5 seconds.</status>
+</test>
+<status status="FAIL" endtime="20190326 11:11:52.738" starttime="20190326 11:11:38.568"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="SitePracticeBDD" pass="0">SitePracticeBDD</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
