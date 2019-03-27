@@ -79,8 +79,31 @@ Então deve ser exibida a mensagem "${PRODUTO_EXCLUIDO}"
 E clicar no botão de login
     Click Element                     xpath=//*[@id="header"]/div[2]/div/div/nav/div[1]/a
 
+#E informar um email válido
+#    Wait Until Element Is Visible    id=email_create
+#    ${EMAIL}   Criar e-mail customizado     ${NOMES.nome}    ${NOMES.sobrenome}
+#    Input Text      id=email_create        ${EMAIL}
+
+#Criar e-mail customizado
+#        [arguments]             ${NOME}       ${SOBRENOME}
+#        ${STRING_ALEATORIA}     Generate Random String
+#        ${CUSTOM_EMAIL}         Set Variable   ${NOME}${SOBRENOME}${STRING_ALEATORIA}@testerobot
+#        Log                     ${CUSTOM_EMAIL}
+#        [Return]                ${CUSTOM_EMAIL}
+
 Quando eu registrar uma nova conta
-    Input Text                        id=email_create    ${NOMES.email}
+    #Input Text                        id=email_create    ${NOMES.email}
+    Wait Until Element Is Visible    id=email_create
+    ${EMAIL}   Criar e-mail customizado     ${NOMES.nome}    ${NOMES.sobrenome}
+    Input Text      id=email_create        ${EMAIL}
+    [arguments]             ${NOME}       ${SOBRENOME}
+    ${STRING_ALEATORIA}     Generate Random String
+    ${CUSTOM_EMAIL}         Set Variable   ${NOME}${SOBRENOME}${STRING_ALEATORIA}@testerobot
+    Log                     ${CUSTOM_EMAIL}
+    [Return]                ${CUSTOM_EMAIL}
+
+
+
     Click Element                     xpath=//*[@id="SubmitCreate"]/span
     Wait Until Element Is Visible     xpath=//*[@id="noSlide"]/h1
     Wait Until Element Is Visible     xpath=//*[@id="uniform-id_gender1"]
@@ -109,6 +132,15 @@ Quando eu registrar uma nova conta
     Input Text                        id=phone_mobile    884758696
     Input Text                        id=alias    77bd9a9d35@mailboxy.fun
     Click Button                      id=submitAccount
+
+Criar e-mail customizado
+    [arguments]             ${NOME}       ${SOBRENOME}
+    ${STRING_ALEATORIA}     Generate Random String
+    ${CUSTOM_EMAIL}         Set Variable   ${NOME}${SOBRENOME}${STRING_ALEATORIA}@testerobot
+    Log                     ${CUSTOM_EMAIL}
+    [Return]                ${CUSTOM_EMAIL}
+
+
 
 
 

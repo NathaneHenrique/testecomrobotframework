@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20190327 09:53:12.659" generator="Robot 3.1.1 (Python 2.7.15 on win32)">
+<robot rpa="false" generated="20190327 11:28:36.366" generator="Robot 3.1.1 (Python 2.7.15 on win32)">
 <suite source="C:\Projetos\SuiteSIteTestPractice\testecomrobotframework\tests\SitePracticeBDD.robot" id="s1" name="SitePracticeBDD">
 <kw type="setup" name="Abrir navegador" library="ResourceBDD">
 <kw name="Open Browser" library="SeleniumLibrary">
@@ -8,10 +8,10 @@
 <arg>about:blank</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20190327 09:53:12.808" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
-<status status="PASS" endtime="20190327 09:53:15.094" starttime="20190327 09:53:12.808"></status>
+<msg timestamp="20190327 11:28:36.485" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" endtime="20190327 11:28:38.612" starttime="20190327 11:28:36.485"></status>
 </kw>
-<status status="PASS" endtime="20190327 09:53:15.094" starttime="20190327 09:53:12.807"></status>
+<status status="PASS" endtime="20190327 11:28:38.612" starttime="20190327 11:28:36.485"></status>
 </kw>
 <test id="s1-t1" name="Cenário 5: Adicionar cliente">
 <kw name="Dado que estou na página home do site" library="ResourceBDD">
@@ -20,18 +20,18 @@
 <arguments>
 <arg>http://automationpractice.com</arg>
 </arguments>
-<msg timestamp="20190327 09:53:15.096" level="INFO">Opening url 'http://automationpractice.com'</msg>
-<status status="PASS" endtime="20190327 09:53:19.335" starttime="20190327 09:53:15.095"></status>
+<msg timestamp="20190327 11:28:38.613" level="INFO">Opening url 'http://automationpractice.com'</msg>
+<status status="PASS" endtime="20190327 11:28:42.525" starttime="20190327 11:28:38.613"></status>
 </kw>
 <kw name="Title Should Be" library="SeleniumLibrary">
 <doc>Verifies that current page title equals ``title``.</doc>
 <arguments>
 <arg>My Store</arg>
 </arguments>
-<msg timestamp="20190327 09:53:19.340" level="INFO">Page title is 'My Store'.</msg>
-<status status="PASS" endtime="20190327 09:53:19.340" starttime="20190327 09:53:19.335"></status>
+<msg timestamp="20190327 11:28:42.531" level="INFO">Page title is 'My Store'.</msg>
+<status status="PASS" endtime="20190327 11:28:42.531" starttime="20190327 11:28:42.525"></status>
 </kw>
-<status status="PASS" endtime="20190327 09:53:19.341" starttime="20190327 09:53:15.095"></status>
+<status status="PASS" endtime="20190327 11:28:42.531" starttime="20190327 11:28:38.613"></status>
 </kw>
 <kw name="E clicar no botão de login" library="ResourceBDD">
 <kw name="Click Element" library="SeleniumLibrary">
@@ -39,267 +39,28 @@
 <arguments>
 <arg>xpath=//*[@id="header"]/div[2]/div/div/nav/div[1]/a</arg>
 </arguments>
-<msg timestamp="20190327 09:53:19.341" level="INFO">Clicking element 'xpath=//*[@id="header"]/div[2]/div/div/nav/div[1]/a'.</msg>
-<status status="PASS" endtime="20190327 09:53:21.412" starttime="20190327 09:53:19.341"></status>
+<msg timestamp="20190327 11:28:42.532" level="INFO">Clicking element 'xpath=//*[@id="header"]/div[2]/div/div/nav/div[1]/a'.</msg>
+<status status="PASS" endtime="20190327 11:28:44.736" starttime="20190327 11:28:42.531"></status>
 </kw>
-<status status="PASS" endtime="20190327 09:53:21.412" starttime="20190327 09:53:19.341"></status>
+<status status="PASS" endtime="20190327 11:28:44.736" starttime="20190327 11:28:42.531"></status>
 </kw>
 <kw name="Quando eu registrar uma nova conta" library="ResourceBDD">
-<kw name="Input Text" library="SeleniumLibrary">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>id=email_create</arg>
-<arg>${NOMES.email}</arg>
-</arguments>
-<msg timestamp="20190327 09:53:21.413" level="INFO">Typing text 'testesilva@exemplo.com' into text field 'id=email_create'.</msg>
-<status status="PASS" endtime="20190327 09:53:21.496" starttime="20190327 09:53:21.412"></status>
+<msg timestamp="20190327 11:28:44.736" level="FAIL">Keyword 'ResourceBDD.Quando eu registrar uma nova conta' expected 2 arguments, got 0.</msg>
+<status status="FAIL" endtime="20190327 11:28:44.736" starttime="20190327 11:28:44.736"></status>
 </kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//*[@id="SubmitCreate"]/span</arg>
-</arguments>
-<msg timestamp="20190327 09:53:21.496" level="INFO">Clicking element 'xpath=//*[@id="SubmitCreate"]/span'.</msg>
-<status status="PASS" endtime="20190327 09:53:21.546" starttime="20190327 09:53:21.496"></status>
-</kw>
-<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
-<doc>Waits until element ``locator`` is visible.</doc>
-<arguments>
-<arg>xpath=//*[@id="noSlide"]/h1</arg>
-</arguments>
-<status status="PASS" endtime="20190327 09:53:23.463" starttime="20190327 09:53:21.546"></status>
-</kw>
-<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
-<doc>Waits until element ``locator`` is visible.</doc>
-<arguments>
-<arg>xpath=//*[@id="uniform-id_gender1"]</arg>
-</arguments>
-<status status="PASS" endtime="20190327 09:53:24.523" starttime="20190327 09:53:23.463"></status>
-</kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>id=uniform-id_gender1</arg>
-</arguments>
-<msg timestamp="20190327 09:53:24.523" level="INFO">Clicking element 'id=uniform-id_gender1'.</msg>
-<status status="PASS" endtime="20190327 09:53:24.563" starttime="20190327 09:53:24.523"></status>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//*[@id="customer_firstname"]</arg>
-<arg>${NOMES.nome}</arg>
-</arguments>
-<msg timestamp="20190327 09:53:24.564" level="INFO">Typing text 'Teste' into text field 'xpath=//*[@id="customer_firstname"]'.</msg>
-<status status="PASS" endtime="20190327 09:53:24.630" starttime="20190327 09:53:24.563"></status>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//*[@id="customer_lastname"]</arg>
-<arg>${NOMES.sobrenome}</arg>
-</arguments>
-<msg timestamp="20190327 09:53:24.630" level="INFO">Typing text 'Silva' into text field 'xpath=//*[@id="customer_lastname"]'.</msg>
-<status status="PASS" endtime="20190327 09:53:24.692" starttime="20190327 09:53:24.630"></status>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>id=passwd</arg>
-<arg>123456789</arg>
-</arguments>
-<msg timestamp="20190327 09:53:24.693" level="INFO">Typing text '123456789' into text field 'id=passwd'.</msg>
-<status status="PASS" endtime="20190327 09:53:24.756" starttime="20190327 09:53:24.692"></status>
-</kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>id=uniform-days</arg>
-</arguments>
-<msg timestamp="20190327 09:53:24.756" level="INFO">Clicking element 'id=uniform-days'.</msg>
-<status status="PASS" endtime="20190327 09:53:24.809" starttime="20190327 09:53:24.756"></status>
-</kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//*[@id="days"]/option[8]</arg>
-</arguments>
-<msg timestamp="20190327 09:53:24.809" level="INFO">Clicking element 'xpath=//*[@id="days"]/option[8]'.</msg>
-<status status="PASS" endtime="20190327 09:53:24.842" starttime="20190327 09:53:24.809"></status>
-</kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>id=months</arg>
-</arguments>
-<msg timestamp="20190327 09:53:24.842" level="INFO">Clicking element 'id=months'.</msg>
-<status status="PASS" endtime="20190327 09:53:24.903" starttime="20190327 09:53:24.842"></status>
-</kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//*[@id="months"]/option[8]</arg>
-</arguments>
-<msg timestamp="20190327 09:53:24.903" level="INFO">Clicking element 'xpath=//*[@id="months"]/option[8]'.</msg>
-<status status="PASS" endtime="20190327 09:53:24.936" starttime="20190327 09:53:24.903"></status>
-</kw>
-<kw name="Scroll Element Into View" library="SeleniumLibrary">
-<doc>Scrolls an element identified by ``locator`` into view.</doc>
-<arguments>
-<arg>xpath=//*[@id="years"]/option[31]</arg>
-</arguments>
-<status status="PASS" endtime="20190327 09:53:24.959" starttime="20190327 09:53:24.936"></status>
-</kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//*[@id="years"]/option[31]</arg>
-</arguments>
-<msg timestamp="20190327 09:53:24.959" level="INFO">Clicking element 'xpath=//*[@id="years"]/option[31]'.</msg>
-<status status="PASS" endtime="20190327 09:53:24.988" starttime="20190327 09:53:24.959"></status>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//*[@id="firstname"]</arg>
-<arg>Nometeste</arg>
-</arguments>
-<msg timestamp="20190327 09:53:24.988" level="INFO">Typing text 'Nometeste' into text field 'xpath=//*[@id="firstname"]'.</msg>
-<status status="PASS" endtime="20190327 09:53:25.070" starttime="20190327 09:53:24.988"></status>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//*[@id="lastname"]</arg>
-<arg>Sobrenome</arg>
-</arguments>
-<msg timestamp="20190327 09:53:25.070" level="INFO">Typing text 'Sobrenome' into text field 'xpath=//*[@id="lastname"]'.</msg>
-<status status="PASS" endtime="20190327 09:53:25.149" starttime="20190327 09:53:25.070"></status>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>id=company</arg>
-<arg>Nome da Empresa</arg>
-</arguments>
-<msg timestamp="20190327 09:53:25.149" level="INFO">Typing text 'Nome da Empresa' into text field 'id=company'.</msg>
-<status status="PASS" endtime="20190327 09:53:25.240" starttime="20190327 09:53:25.149"></status>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>id=address1</arg>
-<arg>Endereço da empresa</arg>
-</arguments>
-<msg timestamp="20190327 09:53:25.240" level="INFO">Typing text 'Endereço da empresa' into text field 'id=address1'.</msg>
-<status status="PASS" endtime="20190327 09:53:25.341" starttime="20190327 09:53:25.240"></status>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>id=address2</arg>
-<arg>Segundo Endereço</arg>
-</arguments>
-<msg timestamp="20190327 09:53:25.342" level="INFO">Typing text 'Segundo Endereço' into text field 'id=address2'.</msg>
-<status status="PASS" endtime="20190327 09:53:25.427" starttime="20190327 09:53:25.341"></status>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>id=city</arg>
-<arg>Nome da cidade</arg>
-</arguments>
-<msg timestamp="20190327 09:53:25.428" level="INFO">Typing text 'Nome da cidade' into text field 'id=city'.</msg>
-<status status="PASS" endtime="20190327 09:53:25.511" starttime="20190327 09:53:25.427"></status>
-</kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>id=uniform-id_state</arg>
-</arguments>
-<msg timestamp="20190327 09:53:25.511" level="INFO">Clicking element 'id=uniform-id_state'.</msg>
-<status status="PASS" endtime="20190327 09:53:25.562" starttime="20190327 09:53:25.511"></status>
-</kw>
-<kw name="Scroll Element Into View" library="SeleniumLibrary">
-<doc>Scrolls an element identified by ``locator`` into view.</doc>
-<arguments>
-<arg>xpath=//*[@id="id_state"]/option[46]</arg>
-</arguments>
-<status status="PASS" endtime="20190327 09:53:25.584" starttime="20190327 09:53:25.562"></status>
-</kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//*[@id="id_state"]/option[46]</arg>
-</arguments>
-<msg timestamp="20190327 09:53:25.584" level="INFO">Clicking element 'xpath=//*[@id="id_state"]/option[46]'.</msg>
-<status status="PASS" endtime="20190327 09:53:25.615" starttime="20190327 09:53:25.584"></status>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>id=postcode</arg>
-<arg>88888</arg>
-</arguments>
-<msg timestamp="20190327 09:53:25.616" level="INFO">Typing text '88888' into text field 'id=postcode'.</msg>
-<status status="PASS" endtime="20190327 09:53:25.685" starttime="20190327 09:53:25.616"></status>
-</kw>
-<kw name="Scroll Element Into View" library="SeleniumLibrary">
-<doc>Scrolls an element identified by ``locator`` into view.</doc>
-<arguments>
-<arg>id=id_country</arg>
-</arguments>
-<status status="PASS" endtime="20190327 09:53:25.705" starttime="20190327 09:53:25.685"></status>
-</kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>id=id_country</arg>
-</arguments>
-<msg timestamp="20190327 09:53:25.705" level="INFO">Clicking element 'id=id_country'.</msg>
-<status status="PASS" endtime="20190327 09:53:25.747" starttime="20190327 09:53:25.705"></status>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>id=phone_mobile</arg>
-<arg>884758696</arg>
-</arguments>
-<msg timestamp="20190327 09:53:25.748" level="INFO">Typing text '884758696' into text field 'id=phone_mobile'.</msg>
-<status status="PASS" endtime="20190327 09:53:25.824" starttime="20190327 09:53:25.748"></status>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>id=alias</arg>
-<arg>77bd9a9d35@mailboxy.fun</arg>
-</arguments>
-<msg timestamp="20190327 09:53:25.824" level="INFO">Typing text '77bd9a9d35@mailboxy.fun' into text field 'id=alias'.</msg>
-<status status="PASS" endtime="20190327 09:53:25.937" starttime="20190327 09:53:25.824"></status>
-</kw>
-<kw name="Click Button" library="SeleniumLibrary">
-<doc>Clicks button identified by ``locator``.</doc>
-<arguments>
-<arg>id=submitAccount</arg>
-</arguments>
-<msg timestamp="20190327 09:53:25.938" level="INFO">Clicking button 'id=submitAccount'.</msg>
-<status status="PASS" endtime="20190327 09:53:27.585" starttime="20190327 09:53:25.938"></status>
-</kw>
-<status status="PASS" endtime="20190327 09:53:27.585" starttime="20190327 09:53:21.412"></status>
-</kw>
-<status status="PASS" endtime="20190327 09:53:27.585" critical="yes" starttime="20190327 09:53:15.095"></status>
+<status status="FAIL" endtime="20190327 11:28:44.737" critical="yes" starttime="20190327 11:28:38.612">Keyword 'ResourceBDD.Quando eu registrar uma nova conta' expected 2 arguments, got 0.</status>
 </test>
-<status status="PASS" endtime="20190327 09:53:27.586" starttime="20190327 09:53:12.661"></status>
+<status status="FAIL" endtime="20190327 11:28:44.738" starttime="20190327 11:28:36.367"></status>
 </suite>
 <statistics>
 <total>
-<stat fail="0" pass="1">Critical Tests</stat>
-<stat fail="0" pass="1">All Tests</stat>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat fail="0" id="s1" name="SitePracticeBDD" pass="1">SitePracticeBDD</stat>
+<stat fail="1" id="s1" name="SitePracticeBDD" pass="0">SitePracticeBDD</stat>
 </suite>
 </statistics>
 <errors>

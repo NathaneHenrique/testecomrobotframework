@@ -45,8 +45,10 @@ ${BROWSER}    chrome
 #      E remover o produtos
 #      Então deve ser exibida a mensagem ""
 
+
 Cenário 5: Adicionar cliente
       Dado que estou na página home do site
       E clicar no botão de login
+      #E informar um email válido
       Quando eu registrar uma nova conta
 #      Então a página de gerenciamento deve ser exibida

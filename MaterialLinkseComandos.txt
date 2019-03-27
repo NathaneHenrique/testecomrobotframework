@@ -85,6 +85,16 @@ ${GLOBAL_SIMPLES} Vamos ver os tipos de variáveis no robot
 #Tipo Dicionário
 &{PESSOA}
 
+Estudar essa documentação sobre escopo, variáveis e argumentos 
+pesquisar por "Space separated format" está é a parte mais útil nos testes
+http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
+
+Comandos básicos git
+
+Git pull
+git add --all
+git git commit -m "Links, comandos e observações" 
+git push
 
 
 
