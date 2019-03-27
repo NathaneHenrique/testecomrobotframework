@@ -1,0 +1,118 @@
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+
+python -m robot ./results tests\TestSitePractice.robot
+
+
+
+
+
+
+
+C:\Python27\Lib\site-packages\robotframework_selenium2library-3.0.0.dist-info
+
+C:\Python27\Lib\site-packages\Selenium2Library
+
+https://www.concrete.com.br/2018/01/30/testes-web-com-robot-framework-para-python-introducao/
+
+C:\Python27\Scripts\chromedriver.exe
+
+gerar teste robot frameworkfake
+
+
+esse modelo de xpath pega exatamente a imagem que contem esses atributos
+o @ quer dizer que ele pega os atributos desse elemento
+Page Should Contain image   xpath=//*[@id="center_column"]//img[@src="http://automationpractice.com/img/p/7/7-home_default.jpg"]
+Dentro do src pode ser passado uma variável para a localização do elemento ficar mais exata 
+ex:
+xpath=//*[@id="center_column"]//img[@src='${NOMEFOTO}']
+
+Contém uma classe que dentro dela tem o nome "Blouswe"
+xpath=//*[@id="center_column"]//a[@class="product-name"][contains(text(),"Blouse")]
+
+Contendo uma varíavel dentro da classe
+Page Should Contain Link          xpath=//*[@id="center_column"]//a[@class="product-name"][contains(text(),"${PRODUTO}")]
+										//*[@id="center_column"]//span[@class="category-name"][contains(text(),"Summer Dresses")]
+										//*[@id="homefeatured"]/li[1]/div/div[1]/div/a[1]
+
+SITES QUE ENSINAM MAIS SOBRE CSS
+www.swtestacademy.com/xpath-selenium/
+www.swtestacademy.com/css-selenium/
+
+DOCUMENTAÇÃO ROBOT Selenium2Library
+http://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#Wait%20Until%20Element%20Contains
+http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
+
+comando para abrir a barra para verificar se o elemento pego é único
+Ctrl+f
+
+Comando para executar todos os arquivos que estão dentro do diretório
+robot nomedodiretório
+ex:
+robot tests
+
+COMANDOS PARA EXECUTAR O ROBOT
+
+robot tests\TestSitePractice.robot
+
+Comando -d ./results   é para jogar os arquivos de log para dentro da pasta results, se não os arquivos fica
+jogados na pasta principal
+
+EXECUTAR APENAS UM CASO DE TESTE
+robot -t "nome do caso de teste" tests
+Ex:
+robot -t "Caso de teste 01: Pesquisar produto existente" tests
+
+PASSAR VARIÁVEIS PARA EXECUÇÃO DO TESTE - O QUE FOR VARIÁVEL GLOBAL VAI SUBSTITUIR NA LINHA DE COMANDO
+
+Aqui ao invés de usar o firefox para execução usará o chrome
+robot -v BROWSER:chrome tests\TestSitePractice.robot 
+robot -d .\results -v BROWSER:chrome tests\TestSitePractice.robot 
+robot -d .\results -t "Caso de teste 01: Pesquisar produto existente" -v BROWSER:chrome tests\TestSitePractice.robot 
+
+COMANDO PARA VISUALIZAR O LOG DETALHADO
+robot -d .\results -L trace tests\TestSitePractice.robot
+
+Keywords da builtin
+http://robotframework.org/robotframework/latest/libraries/BuiltIn.html
+
+	TIPOS DE VARIÁVEIS
+#simples
+${GLOBAL_SIMPLES} Vamos ver os tipos de variáveis no robot
+
+#Tipo lista
+@{FRUTAS} morango  banana  maça  uva  abacaxi
+
+#Tipo Dicionário
+&{PESSOA}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

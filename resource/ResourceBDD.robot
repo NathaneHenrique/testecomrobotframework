@@ -4,6 +4,9 @@ Library  SeleniumLibrary
 *** Variables ***
 ${BROWSER}     firefox
 ${URL}         http://automationpractice.com
+&{NOMES}        nome=Teste      sobrenome=Silva    email=testesilva@exemplo.com
+
+
 
 *** Keywords ***
 Abrir navegador
@@ -77,13 +80,13 @@ E clicar no botão de login
     Click Element                     xpath=//*[@id="header"]/div[2]/div/div/nav/div[1]/a
 
 Quando eu registrar uma nova conta
-    Input Text                        id=email_create    yizecano@network-source.com
+    Input Text                        id=email_create    ${NOMES.email}
     Click Element                     xpath=//*[@id="SubmitCreate"]/span
     Wait Until Element Is Visible     xpath=//*[@id="noSlide"]/h1
     Wait Until Element Is Visible     xpath=//*[@id="uniform-id_gender1"]
     Click Element                     id=uniform-id_gender1
-    Input Text                        xpath=//*[@id="customer_firstname"]    Teste
-    Input Text                        xpath=//*[@id="customer_lastname"]    Silva
+    Input Text                        xpath=//*[@id="customer_firstname"]    ${NOMES.nome}
+    Input Text                        xpath=//*[@id="customer_lastname"]    ${NOMES.sobrenome}
     Input Text                        id=passwd    123456789
     Click Element                     id=uniform-days
     Click Element                     xpath=//*[@id="days"]/option[8]
