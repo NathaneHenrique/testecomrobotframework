@@ -1,10 +1,11 @@
 *** Settings ***
 Library  SeleniumLibrary
+Library    String
 
 *** Variables ***
 ${BROWSER}     firefox
 ${URL}         http://automationpractice.com
-&{NOMES}        nome=Teste      sobrenome=Silva    email=testesilva@exemplo.com
+&{NOMES}        nome=Teste      sobrenome=Silva    email=tetevdfa@exemplo.com
 
 
 
@@ -79,31 +80,8 @@ Então deve ser exibida a mensagem "${PRODUTO_EXCLUIDO}"
 E clicar no botão de login
     Click Element                     xpath=//*[@id="header"]/div[2]/div/div/nav/div[1]/a
 
-#E informar um email válido
-#    Wait Until Element Is Visible    id=email_create
-#    ${EMAIL}   Criar e-mail customizado     ${NOMES.nome}    ${NOMES.sobrenome}
-#    Input Text      id=email_create        ${EMAIL}
-
-#Criar e-mail customizado
-#        [arguments]             ${NOME}       ${SOBRENOME}
-#        ${STRING_ALEATORIA}     Generate Random String
-#        ${CUSTOM_EMAIL}         Set Variable   ${NOME}${SOBRENOME}${STRING_ALEATORIA}@testerobot
-#        Log                     ${CUSTOM_EMAIL}
-#        [Return]                ${CUSTOM_EMAIL}
-
 Quando eu registrar uma nova conta
-    #Input Text                        id=email_create    ${NOMES.email}
-    Wait Until Element Is Visible    id=email_create
-    ${EMAIL}   Criar e-mail customizado     ${NOMES.nome}    ${NOMES.sobrenome}
-    Input Text      id=email_create        ${EMAIL}
-    [arguments]             ${NOME}       ${SOBRENOME}
-    ${STRING_ALEATORIA}     Generate Random String
-    ${CUSTOM_EMAIL}         Set Variable   ${NOME}${SOBRENOME}${STRING_ALEATORIA}@testerobot
-    Log                     ${CUSTOM_EMAIL}
-    [Return]                ${CUSTOM_EMAIL}
-
-
-
+    Input Text                        id=email_create    ${NOMES.email}
     Click Element                     xpath=//*[@id="SubmitCreate"]/span
     Wait Until Element Is Visible     xpath=//*[@id="noSlide"]/h1
     Wait Until Element Is Visible     xpath=//*[@id="uniform-id_gender1"]
@@ -111,7 +89,8 @@ Quando eu registrar uma nova conta
     Input Text                        xpath=//*[@id="customer_firstname"]    ${NOMES.nome}
     Input Text                        xpath=//*[@id="customer_lastname"]    ${NOMES.sobrenome}
     Input Text                        id=passwd    123456789
-    Click Element                     id=uniform-days
+    Click Element                     xpath=//*[@id="uniform-days"]
+    croll Element Into View           xpath=//*[@id="days"]/option[8]
     Click Element                     xpath=//*[@id="days"]/option[8]
     Click Element                     id=months
     Click Element                     xpath=//*[@id="months"]/option[8]
@@ -130,7 +109,7 @@ Quando eu registrar uma nova conta
     Scroll Element Into View          id=id_country
     Click Element                     id=id_country
     Input Text                        id=phone_mobile    884758696
-    Input Text                        id=alias    77bd9a9d35@mailboxy.fun
+    Input Text                        id=alias    77b9d35@mailboxy.fun
     Click Button                      id=submitAccount
 
 Criar e-mail customizado

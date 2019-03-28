@@ -92,7 +92,7 @@ http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
 Comandos básicos git
 
 Git pull
-git add --all
+git add --all ---git add <arquivo>
 git git commit -m "Links, comandos e observações" 
 git push
 

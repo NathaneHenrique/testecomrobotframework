@@ -1,5 +1,5 @@
 *** Settings ***
-Resource        ../resource/Resource.robot
+Resource        ../resource/ResourceSolucao.robot
 Test Setup      Abrir navegador
 Test Teardown   Fechar navegador
 
