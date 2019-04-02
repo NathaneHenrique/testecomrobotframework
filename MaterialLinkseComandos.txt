@@ -88,6 +88,12 @@ ${GLOBAL_SIMPLES} Vamos ver os tipos de variáveis no robot
 #Tipo Dicionário
 &{PESSOA}
 
+***Keyword
+Log ${GLOBAL_SIMPLES}
+Log Tem que ser maçã:${FRUTAS[2]} e essa tem que ser morango:${FRUTAS[0]}
+Log Nome? ${PESSOA.nome} e email: ${PESSOA.email}
+
+
 Estudar essa documentação sobre escopo, variáveis e argumentos
 pesquisar por "Space separated format" está é a parte mais útil nos testes
 http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
