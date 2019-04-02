@@ -3,7 +3,7 @@ Library  SeleniumLibrary
 Library    String
 
 *** Variables ***
-${BROWSER}     firefox
+${BROWSER}     Firefox
 ${URL}         http://automationpractice.com
 &{NOMES}        nome=Teste      sobrenome=Silva    email=tetevdfa@exemplo.com
 

@@ -3,7 +3,7 @@ Library    SeleniumLibrary
 Library    String
 
 *** Variables ***
-${BROWSER}      chrome
+${BROWSER}      Firefox
 ${URL}          http://automationpractice.com
 
 #### Ações

@@ -1,0 +1,616 @@
+1553877503132	geckodriver	INFO	geckodriver 0.18.0
+1553877503134	geckodriver	INFO	Listening on 127.0.0.1:52669
+1553877504207	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1553877504398	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1553877504398	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1553877504398	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1553877504479	Marionette	TRACE	Received observer notification profile-after-change
+1553877504936	Marionette	TRACE	Received observer notification command-line-startup
+1553877504936	Marionette	TRACE	Received observer notification nsPref:changed
+1553877504936	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1553877505628	Marionette	TRACE	Received observer notification toplevel-window-ready
+1553877506446	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1553877506446	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1553877506521	Marionette	TRACE	All scripts recorded.
+1553877506521	Marionette	DEBUG	Setting recommended pref app.normandy.api_url to 
+1553877506521	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1553877506521	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1553877506521	Marionette	DEBUG	Setting recommended pref browser.safebrowsing.passwords.enabled to false
+1553877506521	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1553877506521	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1553877506521	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1553877506521	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1553877506522	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1553877506549	Marionette	INFO	Listening on port 43703
+1553877506549	Marionette	DEBUG	Remote service is active
+1553877506614	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:58172
+1553877506614	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1553877506615	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:179: ... et@chrome://marionette/content/server.js:235:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:493:9\n"},null]
+1553877506618	Marionette	DEBUG	Closed connection 0
+1553877506621	geckodriver	INFO	geckodriver 0.18.0
+1553877506623	geckodriver	INFO	Listening on 127.0.0.1:57559
+1553877507695	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1553877507888	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1553877507888	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1553877507888	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1553877507969	Marionette	TRACE	Received observer notification profile-after-change
+1553877508604	Marionette	TRACE	Received observer notification command-line-startup
+1553877508605	Marionette	TRACE	Received observer notification nsPref:changed
+1553877508605	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1553877509882	Marionette	TRACE	Received observer notification toplevel-window-ready
+1553877510270	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1553877510270	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1553877511134	Marionette	TRACE	All scripts recorded.
+1553877511134	Marionette	DEBUG	Setting recommended pref app.normandy.api_url to 
+1553877511134	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1553877511134	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1553877511135	Marionette	DEBUG	Setting recommended pref browser.safebrowsing.passwords.enabled to false
+1553877511135	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1553877511135	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1553877511135	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1553877511135	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1553877511136	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1553877511164	Marionette	INFO	Listening on port 34295
+1553877511164	Marionette	DEBUG	Remote service is active
+1553877511235	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:53328
+1553877511240	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1553877511240	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:179: ... et@chrome://marionette/content/server.js:235:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:493:9\n"},null]
+1553877511248	Marionette	DEBUG	Closed connection 0
+[Parent 20234, Gecko_IOThread] WARNING: pipe error (78): Conexão fechada pela outra ponta: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 20234, Gecko_IOThread] WARNING: pipe error (62): Conexão fechada pela outra ponta: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1553877541713	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1553877541713	Marionette	DEBUG	Resetting recommended pref app.normandy.api_url
+1553877541713	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1553877541714	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1553877541714	Marionette	DEBUG	Resetting recommended pref browser.safebrowsing.passwords.enabled
+1553877541714	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1553877541714	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1553877541714	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1553877541714	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1553877541714	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1553877541715	Marionette	INFO	Stopped listening on port 34295
+1553877541715	Marionette	DEBUG	Remote service is inactive
+[Parent 19893, Gecko_IOThread] WARNING: pipe error (80): Conexão fechada pela outra ponta: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 19893, Gecko_IOThread] WARNING: pipe error (77): Conexão fechada pela outra ponta: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1553877548271	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1553877548271	Marionette	DEBUG	Resetting recommended pref app.normandy.api_url
+1553877548272	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1553877548272	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1553877548272	Marionette	DEBUG	Resetting recommended pref browser.safebrowsing.passwords.enabled
+1553877548272	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1553877548273	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1553877548274	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1553877548274	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1553877548275	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1553877548277	Marionette	INFO	Stopped listening on port 43703
+1553877548277	Marionette	DEBUG	Remote service is inactive
+1553878447576	geckodriver	INFO	geckodriver 0.18.0
+1553878447577	geckodriver	INFO	Listening on 127.0.0.1:52815
+1553878448661	geckodriver	INFO	geckodriver 0.18.0
+1553878448663	geckodriver	INFO	Listening on 127.0.0.1:38871
+1554119637222	geckodriver	INFO	geckodriver 0.18.0
+1554119637246	geckodriver	INFO	Listening on 127.0.0.1:40879
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554119638604	geckodriver::marionette	INFO	Starting browser /snap/bin/firefox with args ["-marionette"]
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:13015): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:13015): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1554119698973	geckodriver	INFO	geckodriver 0.18.0
+1554119698975	geckodriver	INFO	Listening on 127.0.0.1:55715
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554119700235	geckodriver::marionette	INFO	Starting browser /snap/bin/firefox with args ["-marionette"]
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:13437): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:13437): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1554119881263	geckodriver	INFO	geckodriver 0.18.0
+1554119881265	geckodriver	INFO	Listening on 127.0.0.1:55529
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554119882514	geckodriver::marionette	INFO	Starting browser /snap/bin/firefox with args ["-marionette"]
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:16057): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:16057): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1554119942772	geckodriver	INFO	geckodriver 0.18.0
+1554119942779	geckodriver	INFO	Listening on 127.0.0.1:50105
+1554120084844	geckodriver	INFO	geckodriver 0.18.0
+1554120084846	geckodriver	INFO	Listening on 127.0.0.1:60095
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554120088251	geckodriver::marionette	INFO	Starting browser /snap/bin/firefox with args ["-marionette"]
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:19137): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:19137): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1554120148505	geckodriver	INFO	geckodriver 0.18.0
+1554120148507	geckodriver	INFO	Listening on 127.0.0.1:45707
+1554120420358	geckodriver	INFO	geckodriver 0.18.0
+1554120420360	geckodriver	INFO	Listening on 127.0.0.1:47457
+1554120421435	geckodriver	INFO	geckodriver 0.18.0
+1554120421437	geckodriver	INFO	Listening on 127.0.0.1:59731
+1554120914750	geckodriver	INFO	geckodriver 0.18.0
+1554120914752	geckodriver	INFO	Listening on 127.0.0.1:37657
+1554120915836	geckodriver	INFO	geckodriver 0.18.0
+1554120915838	geckodriver	INFO	Listening on 127.0.0.1:39531
+1554126973704	geckodriver	INFO	geckodriver 0.18.0
+1554126973706	geckodriver	INFO	Listening on 127.0.0.1:49707
+1554126974815	geckodriver	INFO	geckodriver 0.18.0
+1554126974817	geckodriver	INFO	Listening on 127.0.0.1:37899
+1554127007277	geckodriver	INFO	geckodriver 0.18.0
+1554127007279	geckodriver	INFO	Listening on 127.0.0.1:60045
+1554127008359	geckodriver	INFO	geckodriver 0.18.0
+1554127008361	geckodriver	INFO	Listening on 127.0.0.1:43211
+1554129472535	geckodriver	INFO	geckodriver 0.18.0
+1554129472559	geckodriver	INFO	Listening on 127.0.0.1:50455
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554129473791	geckodriver::marionette	INFO	Starting browser /snap/bin/firefox with args ["-marionette"]
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:4959): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:4959): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1554129534113	geckodriver	INFO	geckodriver 0.18.0
+1554129534115	geckodriver	INFO	Listening on 127.0.0.1:44963
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554129535343	geckodriver::marionette	INFO	Starting browser /snap/bin/firefox with args ["-marionette"]
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:5414): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:5414): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1554136342316	geckodriver	INFO	geckodriver 0.18.0
+1554136342318	geckodriver	INFO	Listening on 127.0.0.1:57633
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554136343625	geckodriver::marionette	INFO	Starting browser /snap/bin/firefox with args ["-marionette"]
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:11530): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:11530): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1554136403880	geckodriver	INFO	geckodriver 0.18.0
+1554136403882	geckodriver	INFO	Listening on 127.0.0.1:36545
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554136405093	geckodriver::marionette	INFO	Starting browser /snap/bin/firefox with args ["-marionette"]
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:11884): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:11884): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1554137303596	geckodriver	INFO	geckodriver 0.18.0
+1554137303598	geckodriver	INFO	Listening on 127.0.0.1:43231
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554137304861	geckodriver::marionette	INFO	Starting browser /snap/bin/firefox with args ["-marionette"]
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:12805): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:12805): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1554137365120	geckodriver	INFO	geckodriver 0.18.0
+1554137365122	geckodriver	INFO	Listening on 127.0.0.1:55299
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554137366417	geckodriver::marionette	INFO	Starting browser /snap/bin/firefox with args ["-marionette"]
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:13191): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:13191): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554137966595	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DN9XRIMnD5UA"
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:14202): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:14202): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554137970689	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FzGEEyZWz97K"
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:14522): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:14522): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554137993345	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.s5K7bUwigePf"
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:15042): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:15042): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554138007236	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wrcjnagcWpQF"
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:15359): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:15359): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554138494166	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nCvFeVIlFr8T"
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:15929): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:15929): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554138509687	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jnAi6D2jnAhM"
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:16257): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:16257): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554138595720	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qUNYMA7e3Zb0"
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:16880): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:16880): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554138606774	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nh487U51QqjU"
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:17192): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:17192): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554139869440	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QIbbf9dczBOd"
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:3360): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:3360): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554139881257	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sxH2agwZyV4a"
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:3673): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:3673): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554139989116	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TxDdZwgDotrF"
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:4073): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:4073): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554139991712	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5XymS0ewmNyw"
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:4382): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:4382): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554143304575	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WewDmceL2mHe"
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:15182): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:15182): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554143316561	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wWdEaFK6o8k9"
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:15486): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:15486): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554143490480	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UCb7GwEDGcVA"
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:15950): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:15950): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+1554143492681	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JE5kcliExh8K"
+/snap/firefox/185/bin/desktop-launch: line 174: /home/nathane/snap/firefox/common/.config/user-dirs.dirs: No such file or directory
+cp: cannot create regular file '/home/nathane/snap/firefox/common/.config/': Not a directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.dirs.md5sum: No such file or directory
+/snap/firefox/185/bin/desktop-launch: line 177: /home/nathane/snap/firefox/common/.config/user-dirs.locale.md5sum: No such file or directory
+Gtk-Message: Failed to load module "canberra-gtk-module"
+Gtk-Message: Failed to load module "canberra-gtk-module"
+
+(firefox:16259): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:16259): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1554150142961	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4D5N6W22Oivw"
+1554150143146	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554150143146	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554150143146	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554150145526	Marionette	INFO	Listening on port 45129
+1554150145575	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554150151875	Marionette	INFO	Stopped listening on port 45129
+[Parent 7277, Gecko_IOThread] WARNING: pipe error (79): Conexão fechada pela outra ponta: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1554150152639	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lJqJiziwZCdt"
+1554150152831	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554150152832	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554150152832	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554150154961	Marionette	INFO	Listening on port 46681
+1554150155049	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554150162337	Marionette	INFO	Stopped listening on port 46681
+[Parent 7601, Gecko_IOThread] WARNING: pipe error (79): Conexão fechada pela outra ponta: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1554207647329	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.e8vs2IavaR69"
+1554207648103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554207648103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554207648104	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554207651092	Marionette	INFO	Listening on port 45993
+1554207651149	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554207660907	Marionette	INFO	Stopped listening on port 45993
+[Parent 6697, Gecko_IOThread] WARNING: pipe error (79): Conexão fechada pela outra ponta: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1554207661845	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7K4JxHB3rdY4"
+1554207662044	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554207662044	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554207662044	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554207664531	Marionette	INFO	Listening on port 41665
+1554207664552	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554207671302	Marionette	INFO	Stopped listening on port 41665
+[Parent 7049, Gecko_IOThread] WARNING: pipe error (79): Conexão fechada pela outra ponta: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1554207736727	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7wl7cAO0K2ad"
+1554207736915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554207736915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554207736915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554207739129	Marionette	INFO	Listening on port 45623
+1554207739135	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7424, Gecko_IOThread] WARNING: pipe error (65): Conexão fechada pela outra ponta: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 7424, Gecko_IOThread] WARNING: pipe error (79): Conexão fechada pela outra ponta: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1554207759177	Marionette	INFO	Stopped listening on port 45623
+1554207898917	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oAPElllYncwg"
+1554207899106	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554207899107	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554207899107	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554207901187	Marionette	INFO	Listening on port 43469
+1554207901225	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554207906869	Marionette	INFO	Stopped listening on port 43469
+[Parent 7948, Gecko_IOThread] WARNING: pipe error (79): Conexão fechada pela outra ponta: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1554207907775	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TiiScMQoNQ8w"
+1554207907986	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554207907986	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554207907986	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554207910211	Marionette	INFO	Listening on port 43261
+1554207910286	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554207916626	Marionette	INFO	Stopped listening on port 43261
+[Parent 8285, Gecko_IOThread] WARNING: pipe error (79): Conexão fechada pela outra ponta: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1554207917391	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SiV2yrUDvFxS"
+1554207917601	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554207917601	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554207917601	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554207919587	Marionette	INFO	Listening on port 36775
+1554207919601	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554207924897	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1554207928087	Marionette	INFO	Stopped listening on port 36775
+[Parent 8616, Gecko_IOThread] WARNING: pipe error (79): Conexão fechada pela outra ponta: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1554207928869	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.THDElhTcwb1q"
+1554207929070	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554207929070	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554207929070	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554207930991	Marionette	INFO	Listening on port 34157
+1554207931075	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554207947482	Marionette	INFO	Stopped listening on port 34157
+[Parent 8953, Gecko_IOThread] WARNING: pipe error (79): Conexão fechada pela outra ponta: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1554207948287	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XTIIPv49aaNo"
+1554207948490	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554207948490	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554207948491	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554207950565	Marionette	INFO	Listening on port 43593
+1554207950597	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554207968717	Marionette	INFO	Stopped listening on port 43593
+[Parent 9294, Gecko_IOThread] WARNING: pipe error (85): Conexão fechada pela outra ponta: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 9294, Gecko_IOThread] WARNING: pipe error (79): Conexão fechada pela outra ponta: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1554207969727	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zR6ZCK6t4gpW"
+1554207969963	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554207969963	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554207969963	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554207972085	Marionette	INFO	Listening on port 43557
+1554207972134	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554207981386	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1554207981918	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1554207981981	Marionette	INFO	Stopped listening on port 43557
+[Parent 9639, Gecko_IOThread] WARNING: pipe error (79): Conexão fechada pela outra ponta: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357

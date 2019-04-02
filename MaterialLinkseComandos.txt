@@ -22,7 +22,7 @@ gerar teste robot frameworkfake
 esse modelo de xpath pega exatamente a imagem que contem esses atributos
 o @ quer dizer que ele pega os atributos desse elemento
 Page Should Contain image   xpath=//*[@id="center_column"]//img[@src="http://automationpractice.com/img/p/7/7-home_default.jpg"]
-Dentro do src pode ser passado uma variável para a localização do elemento ficar mais exata 
+Dentro do src pode ser passado uma variável para a localização do elemento ficar mais exata
 ex:
 xpath=//*[@id="center_column"]//img[@src='${NOMEFOTO}']
 
@@ -65,12 +65,15 @@ robot -t "Caso de teste 01: Pesquisar produto existente" tests
 PASSAR VARIÁVEIS PARA EXECUÇÃO DO TESTE - O QUE FOR VARIÁVEL GLOBAL VAI SUBSTITUIR NA LINHA DE COMANDO
 
 Aqui ao invés de usar o firefox para execução usará o chrome
-robot -v BROWSER:chrome tests\TestSitePractice.robot 
-robot -d .\results -v BROWSER:chrome tests\TestSitePractice.robot 
-robot -d .\results -t "Caso de teste 01: Pesquisar produto existente" -v BROWSER:chrome tests\TestSitePractice.robot 
+robot -v BROWSER:chrome tests\TestSitePractice.robot
+robot -d .\results -v BROWSER:chrome tests\TestSitePractice.robot
+robot -d .\results -t "Caso de teste 01: Pesquisar produto existente" -v BROWSER:chrome tests\TestSitePractice.robot
 
 COMANDO PARA VISUALIZAR O LOG DETALHADO
 robot -d .\results -L trace tests\TestSitePractice.robot
+
+COMANDO para guardas os logs dentro da pasta results
+robot -d ./results TestSitePracticeRefazendoBDD.robot
 
 Keywords da builtin
 http://robotframework.org/robotframework/latest/libraries/BuiltIn.html
@@ -85,44 +88,15 @@ ${GLOBAL_SIMPLES} Vamos ver os tipos de variáveis no robot
 #Tipo Dicionário
 &{PESSOA}
 
-Estudar essa documentação sobre escopo, variáveis e argumentos 
+Estudar essa documentação sobre escopo, variáveis e argumentos
 pesquisar por "Space separated format" está é a parte mais útil nos testes
 http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
+
+Tags para fazer conferencia-Pesquisar na documentação por should
 
 Comandos básicos git
 
 Git pull
 git add --all ---git add <arquivo>
-git git commit -m "Links, comandos e observações" 
+git git commit -m "Links, comandos e observações"
 git push
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

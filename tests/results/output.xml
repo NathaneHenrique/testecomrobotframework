@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190402 10:15:44.087" generator="Robot 3.1.1 (Python 2.7.15rc1 on linux2)">
+<suite source="/home/nathane/Projetos/testecomrobotframework/tests/SitePracticeRefazendoBDD.robot" id="s1" name="SitePracticeRefazendoBDD">
+<test id="s1-t1" name="Cenário 01: Pesquisar produto existente">
+<kw type="setup" name="Abrir navegador" library="ResourceRefazendoBDD">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20190402 10:15:44.151" level="INFO">Opening browser 'Firefox' to base url 'about:blank'.</msg>
+<status status="PASS" endtime="20190402 10:15:46.436" starttime="20190402 10:15:44.151"></status>
+</kw>
+<status status="PASS" endtime="20190402 10:15:46.436" starttime="20190402 10:15:44.151"></status>
+</kw>
+<kw name="Dado que estou na página home do site" library="ResourceRefazendoBDD">
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the active browser instance to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20190402 10:15:46.437" level="INFO">Opening url 'http://automationpractice.com'</msg>
+<status status="PASS" endtime="20190402 10:15:50.961" starttime="20190402 10:15:46.437"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=//*[@id="block_top_menu"]/ul</arg>
+</arguments>
+<status status="PASS" endtime="20190402 10:15:50.998" starttime="20190402 10:15:50.961"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that current page title equals ``title``.</doc>
+<arguments>
+<arg>My Store</arg>
+</arguments>
+<msg timestamp="20190402 10:15:51.000" level="INFO">Page title is 'My Store'.</msg>
+<status status="PASS" endtime="20190402 10:15:51.000" starttime="20190402 10:15:50.998"></status>
+</kw>
+<status status="PASS" endtime="20190402 10:15:51.000" starttime="20190402 10:15:46.437"></status>
+</kw>
+<kw name="Quando eu pesquisar pelo produto &quot;Blouse&quot;" library="ResourceRefazendoBDD">
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=search_query</arg>
+<arg>${PRODUTO}</arg>
+</arguments>
+<msg timestamp="20190402 10:15:51.000" level="INFO">Typing text 'Blouse' into text field 'name=search_query'.</msg>
+<status status="PASS" endtime="20190402 10:15:51.021" starttime="20190402 10:15:51.000"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>name=submit_search</arg>
+</arguments>
+<msg timestamp="20190402 10:15:51.022" level="INFO">Clicking element 'name=submit_search'.</msg>
+<status status="PASS" endtime="20190402 10:15:52.218" starttime="20190402 10:15:51.021"></status>
+</kw>
+<status status="PASS" endtime="20190402 10:15:52.218" starttime="20190402 10:15:51.000"></status>
+</kw>
+<kw name="Então o produto &quot;Blouse&quot; deve ser listado na página de resultado da busca" library="ResourceRefazendoBDD">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>css=#center_column &gt; h1</arg>
+</arguments>
+<status status="PASS" endtime="20190402 10:15:52.238" starttime="20190402 10:15:52.218"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that current page title equals ``title``.</doc>
+<arguments>
+<arg>Search - My Store</arg>
+</arguments>
+<msg timestamp="20190402 10:15:52.240" level="INFO">Page title is 'Search - My Store'.</msg>
+<status status="PASS" endtime="20190402 10:15:52.240" starttime="20190402 10:15:52.238"></status>
+</kw>
+<kw name="Page Should Contain Image" library="SeleniumLibrary">
+<doc>Verifies image identified by ``locator`` is found from current page.</doc>
+<arguments>
+<arg>xpath=//*[@id="center_column"]//*[@src='${URL}/img/p/7/7-home_default.jpg']</arg>
+</arguments>
+<msg timestamp="20190402 10:15:52.244" level="INFO">Current page contains image 'xpath=//*[@id="center_column"]//*[@src='http://automationpractice.com/img/p/7/7-home_default.jpg']'.</msg>
+<status status="PASS" endtime="20190402 10:15:52.244" starttime="20190402 10:15:52.240"></status>
+</kw>
+<kw name="Page Should Contain Link" library="SeleniumLibrary">
+<doc>Verifies link identified by ``locator`` is found from current page.</doc>
+<arguments>
+<arg>xpath=//*[@id="center_column"]//a[@class="product-name"][contains(text(),"${PRODUTO}")]</arg>
+</arguments>
+<msg timestamp="20190402 10:15:52.248" level="INFO">Current page contains link 'xpath=//*[@id="center_column"]//a[@class="product-name"][contains(text(),"Blouse")]'.</msg>
+<status status="PASS" endtime="20190402 10:15:52.249" starttime="20190402 10:15:52.244"></status>
+</kw>
+<status status="PASS" endtime="20190402 10:15:52.249" starttime="20190402 10:15:52.218"></status>
+</kw>
+<kw type="teardown" name="Fechar navegador" library="ResourceRefazendoBDD">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190402 10:15:53.116" starttime="20190402 10:15:52.249"></status>
+</kw>
+<status status="PASS" endtime="20190402 10:15:53.116" starttime="20190402 10:15:52.249"></status>
+</kw>
+<status status="PASS" endtime="20190402 10:15:53.117" critical="yes" starttime="20190402 10:15:44.150"></status>
+</test>
+<test id="s1-t2" name="Cenário 02: Pesquisar produto não existente">
+<kw type="setup" name="Abrir navegador" library="ResourceRefazendoBDD">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20190402 10:15:53.121" level="INFO">Opening browser 'Firefox' to base url 'about:blank'.</msg>
+<status status="PASS" endtime="20190402 10:15:55.743" starttime="20190402 10:15:53.120"></status>
+</kw>
+<status status="PASS" endtime="20190402 10:15:55.743" starttime="20190402 10:15:53.120"></status>
+</kw>
+<kw name="Dado que estou na página home do site" library="ResourceRefazendoBDD">
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the active browser instance to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20190402 10:15:55.744" level="INFO">Opening url 'http://automationpractice.com'</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<status status="FAIL" endtime="20190402 10:15:59.542" starttime="20190402 10:15:59.542"></status>
+</kw>
+<msg timestamp="20190402 10:15:59.542" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Execution terminated by signal</msg>
+<status status="FAIL" endtime="20190402 10:15:59.542" starttime="20190402 10:15:55.744"></status>
+</kw>
+<status status="FAIL" endtime="20190402 10:15:59.542" starttime="20190402 10:15:55.743"></status>
+</kw>
+<kw type="teardown" name="Fechar navegador" library="ResourceRefazendoBDD">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<msg timestamp="20190402 10:15:59.543" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x7f4225ba5850&gt;: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/7f0575ed-75c2-4a99-a547-f4cc9b2e11cc</msg>
+<msg timestamp="20190402 10:15:59.544" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x7f4225b99f50&gt;: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/7f0575ed-75c2-4a99-a547-f4cc9b2e11cc</msg>
+<msg timestamp="20190402 10:15:59.544" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x7f4225b99d10&gt;: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/7f0575ed-75c2-4a99-a547-f4cc9b2e11cc</msg>
+<status status="PASS" endtime="20190402 10:15:59.544" starttime="20190402 10:15:59.543"></status>
+</kw>
+<status status="PASS" endtime="20190402 10:15:59.544" starttime="20190402 10:15:59.542"></status>
+</kw>
+<status status="FAIL" endtime="20190402 10:15:59.544" critical="yes" starttime="20190402 10:15:53.118">Execution terminated by signal</status>
+</test>
+<test id="s1-t3" name="Cenário 03: Listar Produtos">
+<tags>
+<tag>robot:exit</tag>
+</tags>
+<status status="FAIL" endtime="20190402 10:15:59.545" critical="yes" starttime="20190402 10:15:59.545">Test execution stopped due to a fatal error.</status>
+</test>
+<test id="s1-t4" name="Cenário 04: Adicionar Produtos no Carrinho">
+<tags>
+<tag>robot:exit</tag>
+</tags>
+<status status="FAIL" endtime="20190402 10:15:59.545" critical="yes" starttime="20190402 10:15:59.545">Test execution stopped due to a fatal error.</status>
+</test>
+<test id="s1-t5" name="Cenário 05: Remover Produtos">
+<tags>
+<tag>robot:exit</tag>
+</tags>
+<status status="FAIL" endtime="20190402 10:15:59.546" critical="yes" starttime="20190402 10:15:59.546">Test execution stopped due to a fatal error.</status>
+</test>
+<test id="s1-t6" name="Cenário 06: Adicionar Cliente">
+<tags>
+<tag>robot:exit</tag>
+</tags>
+<status status="FAIL" endtime="20190402 10:15:59.546" critical="yes" starttime="20190402 10:15:59.546">Test execution stopped due to a fatal error.</status>
+</test>
+<status status="FAIL" endtime="20190402 10:15:59.547" starttime="20190402 10:15:44.088"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="5" pass="1">Critical Tests</stat>
+<stat fail="5" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat info="combined" fail="1" combined="NOT robot:exit" pass="1">NOT robot:exit</stat>
+<stat fail="4" pass="0">robot:exit</stat>
+</tag>
+<suite>
+<stat fail="5" id="s1" name="SitePracticeRefazendoBDD" pass="1">SitePracticeRefazendoBDD</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20190402 10:15:59.542" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Execution terminated by signal</msg>
+<msg timestamp="20190402 10:15:59.543" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x7f4225ba5850&gt;: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/7f0575ed-75c2-4a99-a547-f4cc9b2e11cc</msg>
+<msg timestamp="20190402 10:15:59.544" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x7f4225b99f50&gt;: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/7f0575ed-75c2-4a99-a547-f4cc9b2e11cc</msg>
+<msg timestamp="20190402 10:15:59.544" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x7f4225b99d10&gt;: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/7f0575ed-75c2-4a99-a547-f4cc9b2e11cc</msg>
+</errors>
+</robot>

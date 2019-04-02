@@ -5,7 +5,7 @@ Test Teardown   Fechar navegador
 
 *** Variables ***
 ${URL}          http://automationpractice.com
-${BROWSER}      chrome
+${BROWSER}      Firefox
 
 *** Test Case ***
 Cenário 01: Pesquisar produto existente

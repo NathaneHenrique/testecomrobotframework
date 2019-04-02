@@ -9,8 +9,8 @@ Suite Setup     Abrir navegador
 ### TEARDOWN roda keyword depois de uma suite ou um Teste
 
 *** Variables ***
-${URL}        http://automationpractice.com
-${BROWSER}    chrome
+#${URL}        http://automationpractice.comFirefox
+#${BROWSER}    chrome
 
 *** Test Case ***
 #Cenário 1: Pesquisar produto existente
