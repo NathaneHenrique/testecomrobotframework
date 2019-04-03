@@ -93,6 +93,13 @@ Log ${GLOBAL_SIMPLES}
 Log Tem que ser maçã:${FRUTAS[2]} e essa tem que ser morango:${FRUTAS[0]}
 Log Nome? ${PESSOA.nome} e email: ${PESSOA.email}
 
+Para alimentar variável é usado o set Variable if
+
+FOR encontrado no UserGuide
+http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
+
+
+
 
 Estudar essa documentação sobre escopo, variáveis e argumentos
 pesquisar por "Space separated format" está é a parte mais útil nos testes
@@ -100,9 +107,20 @@ http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
 
 Tags para fazer conferencia-Pesquisar na documentação por should
 
+Library Para Requests
+http://bulkan.github.io/robotframework-requests/
+get requests
+
+Library para manipular Json - Usada para fazer as conferêcias das APIS
+http://robotframework.org/robotframework/latest/libraries/Collections.html
+
+API fake para testar requisições
+https://fakerestapi.azurewebsites.net/swagger/ui/index#/Books
+
+Aulas sobre requisições para rever seção 3, aula 30
 Comandos básicos git
 
 Git pull
-git add --all ---git add <arquivo>
+git add --all  {---git add <arquivo> git add*}
 git git commit -m "Links, comandos e observações"
 git push
