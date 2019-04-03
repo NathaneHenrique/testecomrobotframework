@@ -23,3 +23,4 @@ Rodando uma keyword dada uma condição = false
 Armazenando um valor em uma variável dada uma condição
     ${VAR}     Set Variable If   '${FRUTAS[2]}' == 'uva'     uva
     Log        Minha variável VAR é uma ${VAR}!!
+##
