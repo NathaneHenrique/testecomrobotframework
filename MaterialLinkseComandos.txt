@@ -117,9 +117,11 @@ http://robotframework.org/robotframework/latest/libraries/Collections.html
 API fake para testar requisições
 https://fakerestapi.azurewebsites.net/swagger/ui/index#/Books
 
+Para deletar usa o id e endPoint
+
 Aulas sobre requisições para rever seção 3, aula 30
 Comandos básicos git
-
+http://keeptesting.com.br/2014/09/30/dicas-de-git-para-testers/
 Git pull
 git add --all  {---git add <arquivo> git add*}
 git git commit -m "Links, comandos e observações"
