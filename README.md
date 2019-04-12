@@ -1,4 +1,4 @@
-INSTALAÇÃO
+INSTALAÇÃO Robot no Ubuntu 18.08 LTS
 
 PRÉ-REQUISITOS
 
@@ -40,13 +40,21 @@ $ unzip chromedriver_linux64.zip
 $ tar -xvzf geckodriver*
 
 3. Tornar os arquivos executáveis:
+$ chmod +x chromedriver
+$ chmod +x geckodriver
 
 4. Mover os arquivos para o diretório /usr/local/share:
+$ sudo mv -f chromedriver /usr/local/share/chromedriver
+$ sudo mv -f geckodriver /usr/local/share/geckodriver
+
 
 5. Criar os links simbólico:
 
      Chrome Driver
+$ sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
+$ sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
 
+    Gecko Driver
 
-
-          Gecko Driver
+$ sudo ln -s /usr/local/share/geckodriver /usr/local/bin/geckodriver
+$ sudo ln -s /usr/local/share/geckodriver /usr/bin/geckodriver
